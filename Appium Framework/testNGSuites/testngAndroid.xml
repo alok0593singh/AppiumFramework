@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="tests.testUtils.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="AndroidTestsSuite">
+        <classes>
+            <class name="tests.androidTests.SignUpTest"/>
+            <class name="tests.androidTests.LoginTest"/>
+            <class name="tests.androidTests.FormsPageTest"/>
+            <class name="tests.androidTests.SwipePageTest"/>
+            <class name="tests.androidTests.DragNDropTest"/>
+        </classes>
+    </test>
+</suite>

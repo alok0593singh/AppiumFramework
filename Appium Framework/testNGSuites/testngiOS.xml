@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="tests.testUtils.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="IOSTestsSuite">
+        <classes>
+            <class name="tests.iosTests.SignUpTest"/>
+            <class name="tests.iosTests.LoginTest"/>
+            <class name="tests.iosTests.FormsPageTest"/>
+            <class name="tests.iosTests.SwipePageTest"/>
+            <class name="tests.iosTests.DragNDropTest"/>
+        </classes>
+    </test>
+</suite>

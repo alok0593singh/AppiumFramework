@@ -31,7 +31,7 @@ public class AndroidBaseTest extends AppiumUtils {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "14");
-        capabilities.setCapability("deviceName", "emulator-5554");
+        capabilities.setCapability("deviceName", "emulator-5556");
         capabilities.setCapability("automationName", "uiautomator2");
         capabilities.setCapability("app", System.getProperty("user.dir") + "//src//test//resources//app//wdiodemos.apk");
         capabilities.setCapability("appium:newCommandTimeout", 60);
